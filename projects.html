@@ -40,36 +40,56 @@
 <b>chemical reactions</b>, gene regulatory networks, and animal populations. 
           </p>
           <p class="lead">
-            Population protocols are a complete network of agents without any control of whom they're going to interact with. A random scheduler selects a pair of agents and they interact based on the designed protocol and their current states.  
-            Because of the applications of population protocols it is important that agents require small number of states. </p>
-          
-          
-          <h2 align="left" style="margin-top:2cm;color:rgba(255, 205, 155, .7)">
-              Uniformity in Population Protocols
-          </h2>
-          <p align="left">
-              <font size="4">
-              A model of computation describe how to compute the outputs, given the inputs by illustrating how to operate the memory and communications of the system. To have a general model, we define a ''uniform'' variation of population protocol
-in which describes how a set of outputs are computed given a set of inputs using each agent's local algorithm for computation without any prior knowledge of population size.
-Such an algorithm may produce outputs longer than its inputs,
-retaining the ability to use a number of states that grows with the population size.
-A uniform protocol can be deployed into ''any'' population without knowing in advance the size,
-or even a rough estimate ther
-                  </font>
+            Population protocols are a complete network of agents without any control over whom they're going to interact.
+	    A random scheduler repeatedly selects two agents to interact: they agents update their memory according to the rules of the protocol and their current states.  
           </p>
           
+          
           <h2 align="left" style="margin-top:2cm;color:rgba(255, 205, 155, .7)">
-              Exact/Approximate Counting 
+              Exact and aproximate population size counting
           </h2>
           <p align="left">
               <font size="4">
-              The problem of counting the number of agents in a population. Many of existing protocols assume the agents know what is the population size. This is a strong assumption and in our works we focused on 
-		      the protocols that compute the population size.
+              	We considered the problem of counting (both exact and approximation) the number of agents in population protocols. 
+		This problem is motivated by many existing protocols that assume the population size is known to the agents in advance. 
+		
+		Exact size counting in uniform population protocols in nearly logarithmic time <a href="https://drops.dagstuhl.de/opus/volltexte/2018/9835/pdf/LIPIcs-DISC-2018-46.pdf"> DISC BA </a> <a href="https://arxiv.org/abs/1805.04832">arXiv</a>
+		      
+		Efficient Size Estimation and Impossibility of Termination in Uniform Dense Population Protocols <a href="https://dl.acm.org/doi/abs/10.1145/3293611.3331627">PODC</a> <a href="https://arxiv.org/abs/1808.08913">arXiv</a>
+		      
+		A survey of size counting in population protocols <a href="https://arxiv.org/abs/2105.05408">arXiv</a>
+		      
+              </font>
+          </p>   
+                   
+                  
+          <h2 align="left" style="margin-top:2cm;color:rgba(255, 205, 155, .7)">
+              The exact majority problem in population protocol
+          </h2>
+          <p align="left">
+              <font size="4">
+              
             </font>
           </p>
-          
-                  
-          
+	      
+	  
+	  <h2 align="left" style="margin-top:2cm;color:rgba(255, 205, 155, .7)">
+              Dynamic size coutning in population protocols
+          </h2>
+          <p align="left">
+              <font size="4">
+              
+              </font>
+          </p>
+	      
+	  <h2 align="left" style="margin-top:2cm;color:rgba(255, 205, 155, .7)">
+              Message complexity of population protocol
+          </h2>
+          <p align="left">
+              <font size="4">
+              
+            </font>
+          </p>
         
           
   <!--<img src="images/Mahsa8.jpg"height=25% alt="banner" />

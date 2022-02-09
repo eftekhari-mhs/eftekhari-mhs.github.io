@@ -128,7 +128,7 @@ body{
 
 .cv-block.info .group .organization{
     font-size: 0.85em;
-    background-color: #0ea0ff;
+    background-color: #eee;
     display: inline-block;
     color: #fff;
     padding: 2px 8px;
@@ -136,7 +136,7 @@ body{
 }
 
 .cv-block.info .education.group .organization{
-    background-color: #20c997; 
+    background-color: #eee; 
 }
 
 .cv-block.info .group .item{

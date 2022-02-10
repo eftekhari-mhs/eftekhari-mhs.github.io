@@ -58,6 +58,12 @@ body{
     height: 20%;
 }    
 
+.hbsmahsa{
+    float:right;
+    width: 80%;
+    height: 30%;
+} 
+
 .cv-block{
     padding-bottom: 60px;
     padding-top: 60px;
